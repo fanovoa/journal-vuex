@@ -18,8 +18,8 @@ const uploadImage = async ( file ) => {
         // console.log(data)
         return data.secure_url
 
-    }catch(error){
-        console.log('Error al cargar la imagen, revisar logs')
+    } catch (error) {
+        console.error('Error al cargar la imagen, revisar logs')
         console.log(error)
         return null
 

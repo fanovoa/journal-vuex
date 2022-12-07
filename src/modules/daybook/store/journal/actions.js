@@ -1,6 +1,6 @@
 // Son tareas asincronas que puede llamar una mutacion
 
-import journalApi from "@/api/journalApi"
+import journalApi from '@/api/journalApi'
 
 // export const myAction = async({ commit }) => {
     

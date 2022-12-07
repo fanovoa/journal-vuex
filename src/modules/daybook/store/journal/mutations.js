@@ -28,3 +28,8 @@ export const deleteEntry =( state, id ) => {
 
     state.entries = state.entries.filter( (e) => {return e.id!= id })
 }
+
+export const clearEntries =( state) => {
+
+    state.entries=[]
+}
